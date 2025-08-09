@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: radial-gradient(circle at center, #000010, #000000);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+canvas {
+  display: block;
+  background: transparent;
+}
+#score {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  z-index: 10;
+}
